@@ -1,0 +1,31 @@
+.toy-header{
+    background-color: rgb(232, 233, 234);
+    width: 100%;
+    height:250px;
+}
+.toy-card{
+    width: 250px;
+    margin-top: 30px;
+}
+.toy-list{
+    margin: 0;
+    padding-left: 0;
+}
+.toy-list li{
+    padding: 8px;
+    list-style-type: none;
+}
+.toy-list li::before{
+    content: "+";
+    font-weight: bold;
+    margin-right: 8px;
+}
+.filter-price{
+    width: 250px;
+    margin-top: 20px;
+}
+.popular-product{
+    width: 250px;
+    margin-top: 20px;
+}
+
