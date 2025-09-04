@@ -1,0 +1,27 @@
+.cart-table{
+    max-width: 750px;
+    width: 100%;
+}
+.cart-card{
+    max-width: 400px;
+    width: 100%;
+}
+.custom-input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  background-color: #fff;
+  transition: all 0.2s ease;
+}
+
+.custom-input:focus {
+  border-color: #000;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0,0,0,0.1);
+}
+
+.custom-input::placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
