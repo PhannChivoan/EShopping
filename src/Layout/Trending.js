@@ -142,7 +142,7 @@ function Trending(props) {
 
                     <div className='d-flex align-items-center'>
                     <div>
-                        <img src="image/PopCat1.jpg" style={{width:"5rem"}} alt="Product 1"/>
+                        <img src={process.env.PUBLIC_URL + `/image/PopCat1.jpg`}  style={{width:"5rem"}} alt="Product 1"/>
                     </div>
                     <div className='ms-2'>
                         <span>One piece product</span>
@@ -155,7 +155,7 @@ function Trending(props) {
 
                     <div className='d-flex align-items-center'>
                     <div>
-                        <img src="image/PopCat1.jpg" style={{width:"5rem"}} alt="Product 2"/>
+                        <img src={process.env.PUBLIC_URL + `/image/PopCat1.jpg`}  style={{width:"5rem"}} alt="Product 2"/>
                     </div>
                     <div className='ms-2'>
                         <span>One piece product</span>
@@ -168,7 +168,7 @@ function Trending(props) {
 
                     <div className='d-flex align-items-center'>
                     <div>
-                        <img src="image/PopCat1.jpg" style={{width:"5rem"}} alt="Product 3"/>
+                        <img src={process.env.PUBLIC_URL + `/image/PopCat1.jpg`}  style={{width:"5rem"}} alt="Product 3"/>
                     </div>
                     <div className='ms-2'>
                         <span>One piece product</span>
@@ -181,7 +181,7 @@ function Trending(props) {
 
                     <div className='d-flex align-items-center'>
                     <div>
-                        <img src="image/PopCat1.jpg" style={{width:"5rem"}} alt="Product 4"/>
+                        <img src={process.env.PUBLIC_URL + `/image/PopCat1.jpg`}  style={{width:"5rem"}} alt="Product 4"/>
                     </div>
                     <div className='ms-2'>
                         <span>One piece product</span>

@@ -7,6 +7,7 @@ import { Autoplay, Pagination,Grid } from "swiper/modules";
 import { MoveRight } from "lucide-react";
 import { Link } from 'react-router-dom';
 
+
 function Content(props) {
   const products = [
     {
@@ -286,7 +287,7 @@ function Content(props) {
 
       <div className="product-landscape">
       <div className="toy-header-img" style={{ flex: "0 0 auto", marginRight: "16px" }}>
-        <img src={process.env.PUBLIC_URL + `image/PinkBear.jpg`} className="toy-img"/>
+        <img src={process.env.PUBLIC_URL + `/image/PinkBear.jpg`}className="toy-img"/>
       </div>
         <div className="d-md-block d-lg-none card-space mt-3 mt-sm-0" style={{ flex: 1,height:"200px", minWidth: "0" }}>
               <Swiper
@@ -362,7 +363,7 @@ function Content(props) {
 
       <div className="product-landscape">
       <div className="toy-header-img" style={{ flex: "0 0 auto", marginRight: "16px" }}>
-         <img src={process.env.PUBLIC_URL + `image/Yugioh.jpg`} className="toy-img"/>
+         <img src={process.env.PUBLIC_URL + `/image/Yugioh.jpg`}className="toy-img"/>
       </div>
         <div className="d-md-block d-lg-none card-space mt-3 mt-sm-0" style={{ flex: 1,height:"200px", minWidth: "0" }}>
               <Swiper
@@ -439,7 +440,7 @@ function Content(props) {
 
       <div className="product-landscape">
       <div className="toy-header-img" style={{ flex: "0 0 auto", marginRight: "16px" }}>
-         <img src={process.env.PUBLIC_URL + `image/AnimeAccessories.jpg`} className="toy-img"/>
+         <img src={process.env.PUBLIC_URL + `/image/AnimeAccessories.jpg`} className="toy-img"/>
       </div>
         <div className="d-md-block d-lg-none card-space mt-3 mt-sm-0" style={{ flex: 1,height:"200px", minWidth: "0" }}>
               <Swiper
