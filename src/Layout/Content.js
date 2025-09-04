@@ -48,7 +48,7 @@ function Content(props) {
       title: "one piece",
       price: 100,
       description: "new model",
-      image: "image/Panda.jpg",
+      image: "image/Panda.JPG",
     },
     {
       id : 6,
@@ -56,7 +56,7 @@ function Content(props) {
       title: "two piece",
       price: 100,
       description: "new model",
-      image: "image/ChingChang.jpg",
+      image: "image/ChingChang.JPG",
     },
   ];
   const Card = [
@@ -106,7 +106,7 @@ function Content(props) {
       title: "Card 6",
       price : 2.5,
       description : "One piece Card",
-      image: "image/Card6.jpg"
+      image: "image/card6.jpg"
     }
   ];
 
