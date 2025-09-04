@@ -195,21 +195,21 @@ function Content(props) {
       >
         <SwiperSlide>
           <img
-            src={process.env.PUBLIC_URL + `/image/Cat1.jpg`}
+            src={process.env.PUBLIC_URL + `/image/Cat1.JPG`}
             alt="Slide 1"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src={process.env.PUBLIC_URL + `/image/Cat2.jpg`}
+            src={process.env.PUBLIC_URL + `/image/Cat2.JPG`}
             alt="Slide 2"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src={process.env.PUBLIC_URL + `/image/ChingChang2.jpg`}
+            src={process.env.PUBLIC_URL + `/image/ChingChang2.JPG`}
             alt="Slide 3"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
@@ -287,7 +287,8 @@ function Content(props) {
 
       <div className="product-landscape">
       <div className="toy-header-img" style={{ flex: "0 0 auto", marginRight: "16px" }}>
-        <img src={process.env.PUBLIC_URL + `/image/PinkBear.jpg`}className="toy-img"/>
+        <img src={process.env.PUBLIC_URL + `/image/PinkBear.JPG`} className="toy-img"/>
+        
       </div>
         <div className="d-md-block d-lg-none card-space mt-3 mt-sm-0" style={{ flex: 1,height:"200px", minWidth: "0" }}>
               <Swiper
@@ -363,7 +364,7 @@ function Content(props) {
 
       <div className="product-landscape">
       <div className="toy-header-img" style={{ flex: "0 0 auto", marginRight: "16px" }}>
-         <img src={process.env.PUBLIC_URL + `/image/Yugioh.jpg`}className="toy-img"/>
+         <img src={process.env.PUBLIC_URL + `/image/Yugioh.jpg`} className="toy-img"/>
       </div>
         <div className="d-md-block d-lg-none card-space mt-3 mt-sm-0" style={{ flex: 1,height:"200px", minWidth: "0" }}>
               <Swiper
