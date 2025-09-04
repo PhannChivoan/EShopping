@@ -195,21 +195,21 @@ function Content(props) {
       >
         <SwiperSlide>
           <img
-            src={process.env.PUBLIC_URL + '/image/Cat1.jpg'}
+            src={process.env.PUBLIC_URL + `/image/Cat1.jpg`}
             alt="Slide 1"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src={process.env.PUBLIC_URL + '/image/Cat2.jpg'}
+            src={process.env.PUBLIC_URL + `/image/Cat2.jpg`}
             alt="Slide 2"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src={process.env.PUBLIC_URL + '/image/ChingChang2.jpg'}
+            src={process.env.PUBLIC_URL + `/image/ChingChang2.jpg`}
             alt="Slide 3"
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
