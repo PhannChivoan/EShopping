@@ -2,42 +2,54 @@ import React, { useState } from 'react';
 import { LayoutGrid,LayoutList,House,ChevronRight } from "lucide-react";
 
 function Card(props) {
-      const Card = [
+     const Card = [
     {
+      id : 1,
+      stock : 10,
       title: "Card 1",
       price : 2.5,
       description : "One piece Card",
       image: "image/Card1.jpg"
     },
     {
+      id : 2,
+      stock : 10,
       title: "Card 2",
       price : 2.5,
       description : "One piece Card",
       image: "image/Card2.jpg"
     },
     {
+      id : 3,
+      stock : 10,
       title: "Card 3",
       price : 2.5,
       description : "One piece Card",
       image: "image/Card3.jpg"
     },
     {
+      id : 4,
+      stock : 10,
       title: "Card 4",
       price : 2.5,
       description : "One piece Card",
       image: "image/Card4.jpg"
     },
     {
+      id : 5,
+      stock : 10,
       title: "Card 5",
       price : 2.5,
       description : "One piece Card",
       image: "image/Card5.jpg"
     },
     {
+      id : 6,
+      stock : 10,
       title: "Card 6",
       price : 2.5,
       description : "One piece Card",
-      image: "image/Card6.jpg"
+      image: "image/card6.jpg"
     }
   ];
     const [min, setMin] = useState(10);

@@ -3,40 +3,52 @@ import { LayoutGrid,LayoutList,House,ChevronRight } from "lucide-react";
 function Toy(props) {
     const products = [
     {
+      id : 1,
       title: "one piece",
       description: "new model",
       price: 100,
+      stock : 50,
       image: "image/Cat6.jpg",
     },
     {
+      id : 2,
       title: "two piece",
       price: 200,
+      stock:10,
       description: "new model",
       image: "image/Cat3.jpg",
     },
     {
+      id : 3,
+      stock : 10,
       title: "one piece",
       price: 100,
       description: "new model",
       image: "image/Cat4.jpg",
     },
     {
+      id : 4,
+      stock : 10,
       title: "two piece",
       price: 100,
       description: "new model",
       image: "image/Cat5.jpg",
     },
     {
+      id : 5,
+      stock : 10,
       title: "one piece",
       price: 100,
       description: "new model",
-      image: "image/Panda.jpg",
+      image: "image/Panda.JPG",
     },
     {
+      id : 6,
+      stock : 10,
       title: "two piece",
       price: 100,
       description: "new model",
-      image: "image/ChingChang.jpg",
+      image: "image/ChingChang.JPG",
     },
   ];
   const [min, setMin] = useState(10);
